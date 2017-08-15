@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <SourceSelection v-on:sourceChanged="sourceChanged"></SourceSelection>
-    <NewsList v-bind:source="source"></NewsList>
+    <!-- <NewsList v-bind:source="source"></NewsList> -->
   </div>
 </template>
 
